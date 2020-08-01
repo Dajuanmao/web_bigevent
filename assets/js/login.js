@@ -66,7 +66,7 @@ $(function(){
 
             // 第一次登陆成功，后台会返回一个token，将token保存到本地，以后再次访问有权限的页面时，需要在请求头中携带token，才可以访问，否则没有权限访问
                 localStorage.setItem('token',res.token)
-                // location.href='/index.html' //登陆之后跳转到后台首页
+                location.href='/index.html' //登陆之后跳转到后台首页
             }
         })
     })

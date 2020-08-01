@@ -1,0 +1,51 @@
+.layui-footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont{
+    margin-right: 8px;
+}
+.layui-icon{
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.layui-body{
+    overflow: hidden;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    /* border: 0;     这句代码主要是用来清除iframe的边框值为0的，这里不写，在iframe标签中设置 frameborder="0"是一样的效果 */
+}
+
+a{
+    transition: none !important;
+}
+.layui-side-scroll .userinfo{
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #282b33;
+    user-select: none;  /*不让文字选中*/
+
+}
+.layui-nav-img{
+    height: 40px;
+    width: 40px;
+}
+.text-avatar{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #009688;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
